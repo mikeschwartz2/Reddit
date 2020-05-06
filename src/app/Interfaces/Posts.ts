@@ -3,8 +3,9 @@ export interface Posts {
     children:Post[];
 } 
 export interface Post {
-    data:string;
+    data:{
     title:string;
     thumbnail:string;
     url:string;
+    }
 }
