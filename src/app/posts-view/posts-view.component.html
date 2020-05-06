@@ -1,0 +1,5 @@
+<h1>List of Posts</h1>
+<li *ngFor="let p of posts?.data.children">
+    <app-post-view [myPost]="p"></app-post-view>
+</li>
+    
